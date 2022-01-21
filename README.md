@@ -1,5 +1,5 @@
 # Super-Resolution
-## FSRCNN
+## FSRCNN (*Fast Super-Resolution Convolutional Neural Network*)
 ![alt text](https://github.com/marccasals98/Super-Resolution/blob/main/results/RESULTS_ART/result_bar2.png)
 ![alt text](https://github.com/marccasals98/Super-Resolution/blob/main/results/RESULTS_ART/gat.png)
 
