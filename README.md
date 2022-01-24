@@ -34,7 +34,8 @@ The images shown at the beginning are done using this network.
 
 ## References 
 
-CHOLLET FRANÇOIS, Deep Learning with Python 2018.
+CHOLLET FRANÇOIS, Deep Learning with Python, 2018.
+
 CHAO DONG, CHEN CHANGE LOY, XIAOOU TANG Accelerating the Super-Resolution Convolutional Neural Network, 2016.
 P. KINGMA DIEDERIK, LEI BA JIMMY, Adam: A method for stochastic optimization, 2014.
 CHAO DONG, CHEN CHANGE LOY, KAIMING HE, XIAOOU TANG, Image Super-Resolution Using Deep Convolutional Networks, 2015.
