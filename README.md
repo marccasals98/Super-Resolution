@@ -32,6 +32,20 @@ This network uses the same dataset as the previous one but with some changes in 
 The images shown at the beginning are done using this network.
 ![alt text](https://github.com/marccasals98/Super-Resolution/blob/main/results/RESULTS_ART/papallona2.png)
 
+## Structure of the Network
+
+Following the structure described in the article of Chao Dong et al:
+
+![alt text](https://github.com/marccasals98/Super-Resolution/blob/main/results/RESULTS_ART/structure%20(1).PNG)
+
+We add some modifications:
+
+- Because we are trainning colour images we need 3 channels in the input (except in the MNIST).
+- We use the Adam optimizer instead of the SGD (Stochastic Gradient Descent).
+- In flickr x4 we add some network complexity by turning the m=4 into m=7.
+
+
+
 ## References 
 
 CHOLLET FRANÇOIS, Deep Learning with Python, 2018. 
