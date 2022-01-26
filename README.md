@@ -13,11 +13,11 @@ This network was trained with MNIST dataset, so the super-resolution works only 
 
 ### BSDS300
 
-This network uses a general purpous dataset. It only has 200 images for trainning and 100 for test. So the result could be better.
+This network uses a general purpose dataset. It only has 200 images for training and 100 for the test. So the result could be better.
 
 ### BSDS300_DA
 
-This network uses the same dataset as before but using Data Augemntation.
+This network uses the same dataset as before, but using Data Augmentation.
 
 ### Flickr 
 
@@ -28,7 +28,7 @@ The results using this network are the best of all project.
 
 ### Flickr
 
-This network uses the same dataset as the previous one but with some changes in the complexity of the Network that increases the results for doing an upscaling of x4.
+This network uses the same dataset as the previous one, but with some changes in the complexity of the Network that increases the results for doing an upscaling of x4.
 The images shown at the beginning are done using this network.
 ![alt text](https://github.com/marccasals98/Super-Resolution/blob/main/results/RESULTS_ART/papallona2.png)
 
@@ -40,9 +40,9 @@ Following the structure described in the article of Chao Dong et al:
 
 We add some modifications:
 
-- Because we are trainning colour images we need 3 channels in the input (except in the MNIST).
+- Because we are training colour images we need 3 channels in the input (except in the MNIST).
 - We use the Adam optimizer instead of the SGD (Stochastic Gradient Descent).
-- In flickr x4 we add some network complexity by turning the m=4 into m=7.
+- In Flickr x4 we add some network complexity by turning the m=4 into m=7.
 
 
 
